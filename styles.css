@@ -16,6 +16,7 @@ h2 {
 
 
 a {
+  disply:flex;
   color:purple;
   text-align:right;
   text-decoration: none;
@@ -61,4 +62,27 @@ nav {
 body {
   background-color:burlywood;
   text-align: center;
+}
+
+.header {
+  background-color: green;
+  border-radius:25px;
+  
+}
+
+aside {
+  background-color:blueviolet;
+  border-radius: 25px;
+}
+
+.mainIntro{
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: space-around;
+  border-radius: 15px;
+}
+
+.circular--square{
+  border-radius:25px;
 }
